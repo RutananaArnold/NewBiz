@@ -281,8 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: #40FE70;
-  /* url("../img/hero-bg.png") center bottom no-repeat; */
+  background: url("../img/cover.jpeg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -353,24 +352,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #40FE70;
 }
 #hero .hero-info .btn-get-started {
-  background: #40FE70;
-  border: 2px solid #000000;
-  color: #000000;
+  background: none;
+  border: 2px solid #40FE70;
+  color: #40FE70;
 }
 #hero .hero-info .btn-get-started:hover {
   background: none;
-  border-color: #000000;
-  color: #000000;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
 }
 #hero .hero-info .btn-services {
-  background: #000000;
-  border: 2px solid #000000;
-  color: #40FE70;
+  background: none;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
 }
 #hero .hero-info .btn-services:hover {
   background: none;
-  border-color: #000000;
-  color: #000000;
+  border-color: #40FE70;
+  color: #40FE70;
 }
 
 /*--------------------------------------------------------------
@@ -409,6 +408,25 @@ section {
   background: #000000
   /* #ecf5ff; */
 }
+
+/* newletter */
+#newsletter{
+  background: #000000;
+}
+
+.news-card{
+  padding: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  margin: 0 10px 40px 10px;
+  background: none;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* end of newletter */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -536,6 +554,25 @@ section {
   font-size: 24px;
 }
 
+@media  (max-width:350px) {
+  .video{
+   align-items: center;
+   padding: 10px;
+   justify-content: center;
+  }
+}
+
+@media(min-width:350px){
+  .video{
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+
+
 /* Services Section
 --------------------------------*/
 #services {
@@ -547,13 +584,15 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  border: 2px solid #FFFFFF;
   margin: 0 10px 40px 10px;
-  background: #40FE70;
+  background: none;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
 #services .box:hover {
   transform: translateY(-5px);
+  border-color: #40FE70;
 }
 #services .icon {
   position: absolute;
@@ -572,13 +611,14 @@ section {
   font-size: 18px;
 }
 #services .title a {
-  color: #111;
+  color: #40FE70;
 }
 #services .box:hover .title a {
-  color: #007bff;
+  color: #FFFFFF;
 }
 #services .description {
   font-size: 14px;
+  color: #FFFFFF;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
@@ -586,19 +626,22 @@ section {
 
 #why-us {
   padding: 60px 0;
-  background: #40FE70;
+  width: 100%;
+  position: relative;
+  background: url("../img/whyus.jpeg") center bottom no-repeat;
+  background-size: cover;
 }
 #why-us .section-header h3, #why-us .section-header p {
   color: #000000;
 }
 #why-us .card {
-  background: #40FE70;
-  border-color: #000000;
+  background: none;
+  border-color: #FFFFFF;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #000000;
+  color: white;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
@@ -608,8 +651,8 @@ section {
   }
 }
 #why-us .card:hover {
-  background: #40FE70;
-  border-color: #000000;
+  background: none;
+  border-color: #40FE70;
 }
 #why-us .card i {
   font-size: 48px;
@@ -883,10 +926,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #007bff;
+  border: 1px solid #40FE70;
 }
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #007bff;
+  background-color: #40FE70;
 }
 
 /* Team Section
@@ -1137,7 +1180,7 @@ section {
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #40FE70;
+  background: green;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
