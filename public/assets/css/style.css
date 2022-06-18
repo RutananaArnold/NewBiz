@@ -628,7 +628,7 @@ section {
   padding: 60px 0;
   width: 100%;
   position: relative;
-  background: url("../img/whyus.jpeg") center bottom no-repeat;
+  background: url("../img/whyus02.jpeg") center bottom no-repeat;
   background-size: cover;
 }
 #why-us .section-header h3, #why-us .section-header p {
@@ -1174,7 +1174,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #40FE70;
+  background: green;
   padding: 0 0 30px 0;
   color: #000000;
   font-size: 14px;
@@ -1294,4 +1294,78 @@ section {
 }
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+
+.boxvideo{
+  margin-top: 12%;
+
+}
+
+h1{
+  margin-bottom: 50px !important;
+}
+.videoplay-btn{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -50%;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0;
+}
+.col-md-2:hover .videoplay-btn{
+  opacity: 1;
+}
+
+.modal {
+  padding: 0 !important;
+}
+.modal .modal-dialog{
+  width: 60%;
+  margin: 0 auto !important;
+  max-width: none;
+  height: 60%;
+  align-items: center;
+
+}
+.modal .modal-content{
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.modal .modal-body{
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+}
+.modal .modal-body iframe{
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width:900px){
+  .modal .modal-content{
+      height: auto;
+  }
+  .modal .modal-dialog{
+      width:100%;
+      height: auto;
+  }
+}
+
+#hireus{
+  background: #000000;
+}
+
+.hireus-card{
+  padding: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  margin: 15 10px 40px 10px;
+  background: url("../img/cover.jpeg") center bottom no-repeat;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
 }
