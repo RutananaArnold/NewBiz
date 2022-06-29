@@ -64,10 +64,10 @@
 
       <section id="hireUs" >
        
-      <div class="container" style="margin-top: 200px; margin-bottom: 100px;" data-aos="fade-up">
-        <p> <h3  style="text-align: center; font-weight: bold; color: #40FE70;">Let's work together</h3></p> 
+      <div class="container" style="margin-top: 200px; margin-bottom: 120px;" data-aos="fade-up">
+        <p> <h3  style="text-align: center; font-weight: bolder; color: #40FE70; font-size: 35px">Let's work together</h3></p> 
     
-        <p> <h3 style="text-align: center; font-weight: bold; color: #40FE70;"> If you would like to hire us for a project you're working on, please get in touch using the form below.</h3> </p>
+        <p> <h3 style="text-align: center; color: white;"> If you would like to hire us for a project you're working on, please get in touch using the form below.</h3> </p>
        
         <div class="hireus-card">
          
@@ -75,24 +75,32 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-lg-6">
-                  <input style="background: transparent;" type="text" name="name" class="form-control" id="name" placeholder="Your Name"  required>
+                  <p style="color: bisque;">FIRST NAME</p>
+                  <input style="background: transparent; border-width: 4px" type="text" name="FIRSTname" class="form-control" id="firstname"  required>
                 </div>
                 <div class="form-group col-lg-6 mt-3 mt-lg-0">
-                  <input style="background: transparent;" type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <p style="color: bisque;">LAST NAME</p>
+                  <input style="background: transparent; border-width: 4px" type="text" class="form-control" name="lastname" id="lastname"  required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input style="background: transparent;" type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <p style="color: bisque;">EMAIL</p>
+                <input style="background: transparent; border-width: 4px" type="email" class="form-control" name="email" id="email"  required>
               </div>
               <div class="form-group mt-3">
-                <textarea style="background: transparent;" class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <p style="color: bisque;">MESSAGE</p>
+                <textarea style="background: transparent; border-width: 4px" class="form-control" name="message" rows="5"  required></textarea>
               </div>
               <!-- <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div> -->
-              <div class="text-center"><button type="submit" title="Send Message" style="border-radius: 20px; width: 35%; background-color: #40FE70; border: #40FE70; font-weight: bolder;" >Let's talk</button></div>
+              <div class="text-center">
+                <button type="submit" style="color:white; border-radius: 20px;  width: 80%; height: 20%;
+                padding: 5px 0; background: rgb(10, 187, 10); border: #40FE70; font-weight:bolder; margin-top:30px">LET'S TALK</button>
+                <!-- <button type="submit" title="Send Message" style="border-radius: 20px; width: 60%; background-color: #40FE70; border: #40FE70; font-weight: bolder;" >Let's talk</button> -->
+              </div>
             </form>
           </div>
         </div>
