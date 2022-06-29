@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   background: url("../img/cover.jpeg") center bottom no-repeat;
   background-size: cover;
-  padding: 200px 0 120px 0;
+  padding: 230px 0 120px 0;
 }
 @media (max-width: 991px) {
   #hero {
@@ -420,7 +420,7 @@ section {
   overflow: hidden;
   border-radius: 10px;
   border: 2px solid #FFFFFF;
-  margin: 0 10px 40px 10px;
+  margin: 100px 10px 150px 10px;
   background: none;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
@@ -628,7 +628,7 @@ section {
   padding: 60px 0;
   width: 100%;
   position: relative;
-  background: url("../img/whyus02.jpeg") center bottom no-repeat;
+  background: url("../img/why.jpeg")  center bottom no-repeat;
   background-size: cover;
 }
 #why-us .section-header h3, #why-us .section-header p {
@@ -876,6 +876,8 @@ section {
 @media (max-width: 767px) {
   #testimonials .testimonial-item {
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 #testimonials .testimonial-item .testimonial-img {
@@ -1364,8 +1366,9 @@ h1{
   overflow: hidden;
   border-radius: 10px;
   border: 2px solid #FFFFFF;
-  margin: 15 10px 40px 10px;
-  background: url("../img/cover.jpeg") center bottom no-repeat;
+  margin: 80px 10px 40px 10px;
+  background: black;
+  /* url("../img/cover.jpeg") center bottom no-repeat; */
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
