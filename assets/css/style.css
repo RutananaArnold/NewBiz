@@ -628,7 +628,7 @@ section {
   padding: 60px 0;
   width: 100%;
   position: relative;
-  background: url("../img/why.jpeg")  center bottom no-repeat;
+  background: url("../img/whyUs.jpeg")  center bottom no-repeat;
   background-size: cover;
 }
 #why-us .section-header h3, #why-us .section-header p {
@@ -1319,54 +1319,17 @@ h1{
   opacity: 1;
 }
 
-.modal {
-  padding: 0 !important;
-}
-.modal .modal-dialog{
-  width: 60%;
-  margin: 0 auto !important;
-  max-width: none;
-  height: 60%;
-  align-items: center;
-
-}
-.modal .modal-content{
-  height: 100%;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-}
-.modal .modal-body{
-  display: flex;
-  justify-content: center;
-  overflow-y: auto;
-}
-.modal .modal-body iframe{
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-}
-@media (max-width:900px){
-  .modal .modal-content{
-      height: auto;
-  }
-  .modal .modal-dialog{
-      width:100%;
-      height: auto;
-  }
-}
-
 #hireus{
   background: #000000;
 }
 
 .hireus-card{
-  padding: 150px;
+  padding: 80px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   border: 2px solid #FFFFFF;
-  margin: 80px 10px 40px 10px;
+  margin: 50px 10px 40px 10px;
   background: black;
   /* url("../img/cover.jpeg") center bottom no-repeat; */
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
