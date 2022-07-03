@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-img {
   width: 50%;
   float: right;
-  margin-top: -150px;
+  /* margin-top: -150px; */
 }
 @media (max-width: 991px) {
   #hero .hero-img {
@@ -1335,4 +1335,31 @@ h1{
   /* url("../img/cover.jpeg") center bottom no-repeat; */
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
+}
+
+.subscibebtn{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  background-color: #40FE70;
+  color: white;
+}
+
+.subscribeEmailfield{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #40FE70;
 }
