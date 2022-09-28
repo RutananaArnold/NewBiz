@@ -236,17 +236,17 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: black;
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #004289;
+  color: #40FE70;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #007bff;
+  color: white;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -1347,7 +1347,7 @@ h1{
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
-  background-color: green;
+  background-color: #008000;
   color: white;
 }
 
