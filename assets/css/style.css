@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007bff;
+  background: #40FE70;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #2990ff;
+  background: #40FE70;
   color: #fff;
 }
 .back-to-top.active {
@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: url("../img/cover.jpeg") center bottom no-repeat;
+  background: url("../img/hero001.jpeg") center bottom no-repeat;
   background-size: cover;
   padding: 230px 0 120px 0;
 }
@@ -1326,13 +1326,13 @@ h1{
 
 .hireus-card{
   padding: 80px;
-  position: relative;
+  position: relatve;
   overflow: hidden;
   border-radius: 10px;
   border: 2px solid #FFFFFF;
   margin: 50px 10px 40px 10px;
-  background: black;
-  /* url("../img/cover.jpeg") center bottom no-repeat; */
+  background: url("../img/hireusbody.jpeg") no-repeat center center  ;
+  background-size: cover;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -1347,7 +1347,7 @@ h1{
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
-  background-color: #40FE70;
+  background-color: green;
   color: white;
 }
 
